@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main ( )
+	{
+
+  int guess;
+  int answer = 56;
+    
+  cout << "Can you guess the number I am thinking of?\n";
+  cout << "Enter a number: \n";
+  cin >> guess; 
+
+    if (guess < answer)
+       {
+        cout << "Sorry, " << guess << " is too low. Try again!\n";
+       }
+    
+   if (guess > answer)
+       {
+        cout << "Woah! " << guess << " is too high! Please try again!\n";
+        }
+    
+    if (guess == answer)
+       {
+          cout << "You guessed " << guess << ", which is correct! Hooray!\n";
+        }
+    }
