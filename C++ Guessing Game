@@ -24,4 +24,13 @@ int main ( )
        {
           cout << "You guessed " << guess << ", which is correct! Hooray!\n";
         }
+  while (guess != answer)
+      {
+        cout << "Guess Again!";
+        cin >> guess;
+        if (guess == answer)
+       {
+          cout << "You guessed " << guess << ", which is correct! Hooray!\n";
+        }
+      }
     }
